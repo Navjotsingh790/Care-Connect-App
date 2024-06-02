@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="13.00dp"
+    android:layout_margin="10.40dp"
+    android:id="@+id/head_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7.80dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_margin="10.40dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_title"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:maxLines="3"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_source"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:layout_marginTop="7.80dp"
+                android:textColor="#3F51B5">
+
+            </TextView>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/img_head"
+            android:layout_weight="1"
+            android:src="@drawable/news2"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7.80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.80dp"
+                android:padding="7.80dp"
+                android:text="business"
+                android:textSize="15.60sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.80dp"
+                android:padding="7.80dp"
+                android:text="entertainment"
+                android:textSize="15.60sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.80dp"
+                android:padding="7.80dp"
+                android:text="general"
+                android:textSize="15.60sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.80dp"
+                android:padding="7.80dp"
+                android:text="health"
+                android:textSize="15.60sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.80dp"
+                android:padding="7.80dp"
+                android:text="science"
+                android:textSize="15.60sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.80dp"
+                android:padding="7.80dp"
+                android:text="sports"
+                android:textSize="15.60sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.80dp"
+                android:padding="7.80dp"
+                android:text="technology"
+                android:textSize="15.60sp">
+
+            </Button>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5.20dp"
+        app:cardElevation="13.00dp">
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_view"
+            app:defaultQueryHint="Search News..."
+            app:iconifiedByDefault="false"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </androidx.appcompat.widget.SearchView>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10.40dp"
+        android:id="@+id/recyclerView" />
+
+</LinearLayout>
