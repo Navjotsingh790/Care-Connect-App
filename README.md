@@ -26,6 +26,9 @@ You can download the latest Version by clicking the button below
 - **Custom Adapters**: Tailored views and interactions for a personalized user experience.
 - **User-Friendly Interface**: Designed with ease of use and accessibility in mind.
 
+https://github.com/Navjotsingh790/Care-Connect-App/assets/86885728/95b24de9-dbc2-4a60-aa2c-c9dc9b49c613
+
+
 ## Technologies Used
 
 - **Java**: Core programming language for Android development.
