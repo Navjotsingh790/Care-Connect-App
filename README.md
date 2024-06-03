@@ -136,3 +136,7 @@ We welcome contributions to make Care Connect App even better! If you have an id
 - **Git:** For the version control that enables collaborative development.
 
 Your contributions and support have been instrumental in bringing this project to life. Thank you!
+
+## Contact
+
+For any inquiries or feedback, please contact us at navjotsingh23151@gmail.com.
